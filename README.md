@@ -1,0 +1,1 @@
+Major-related Class Scheduler
