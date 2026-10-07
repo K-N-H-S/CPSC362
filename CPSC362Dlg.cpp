@@ -103,11 +103,6 @@ BOOL CCPSC362Dlg::OnInitDialog()
 	SetIcon(m_hIcon, TRUE);
 	SetIcon(m_hIcon, FALSE);
 
-
-	// -------------------------------------------------
-	// Create Page 1
-	// -------------------------------------------------
-
 	m_pPage1 = new CPage1Dlg();
 
 	if (!m_pPage1->Create(IDD_DIALOG1, this))
@@ -118,11 +113,6 @@ BOOL CCPSC362Dlg::OnInitDialog()
 		return FALSE;
 	}
 
-
-	// -------------------------------------------------
-	// Create Page 2
-	// -------------------------------------------------
-
 	m_pPage2 = new CPage2Dlg();
 
 	if (!m_pPage2->Create(IDD_DIALOG2, this))
@@ -132,11 +122,6 @@ BOOL CCPSC362Dlg::OnInitDialog()
 
 		return FALSE;
 	}
-
-
-	// -------------------------------------------------
-	// Position the pages
-	// -------------------------------------------------
 
 	CRect rect;
 	GetClientRect(&rect);
