@@ -7,6 +7,7 @@
 #include "CPSC362.h"
 #include "CPSC362Dlg.h"
 #include "afxdialogex.h"
+#include "Dialog1.h";
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -54,6 +55,8 @@ CCPSC362Dlg::CCPSC362Dlg(CWnd* pParent /*=nullptr*/)
 	: CDialogEx(IDD_CPSC362_DIALOG, pParent)
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
+	m_pPage1 = nullptr;
+	m_pPage2 = nullptr;
 }
 
 void CCPSC362Dlg::DoDataExchange(CDataExchange* pDX)
@@ -77,7 +80,6 @@ BOOL CCPSC362Dlg::OnInitDialog()
 
 	// Add "About..." menu item to system menu.
 
-	// IDM_ABOUTBOX must be in the system command range.
 	ASSERT((IDM_ABOUTBOX & 0xFFF0) == IDM_ABOUTBOX);
 	ASSERT(IDM_ABOUTBOX < 0xF000);
 
@@ -88,21 +90,78 @@ BOOL CCPSC362Dlg::OnInitDialog()
 		CString strAboutMenu;
 		bNameValid = strAboutMenu.LoadString(IDS_ABOUTBOX);
 		ASSERT(bNameValid);
+
 		if (!strAboutMenu.IsEmpty())
 		{
 			pSysMenu->AppendMenu(MF_SEPARATOR);
-			pSysMenu->AppendMenu(MF_STRING, IDM_ABOUTBOX, strAboutMenu);
+			pSysMenu->AppendMenu(MF_STRING,
+				IDM_ABOUTBOX,
+				strAboutMenu);
 		}
 	}
 
-	// Set the icon for this dialog.  The framework does this automatically
-	//  when the application's main window is not a dialog
-	SetIcon(m_hIcon, TRUE);			// Set big icon
-	SetIcon(m_hIcon, FALSE);		// Set small icon
+	SetIcon(m_hIcon, TRUE);
+	SetIcon(m_hIcon, FALSE);
 
-	// TODO: Add extra initialization here
 
-	return TRUE;  // return TRUE  unless you set the focus to a control
+	// -------------------------------------------------
+	// Create Page 1
+	// -------------------------------------------------
+
+	m_pPage1 = new CPage1Dlg();
+
+	if (!m_pPage1->Create(IDD_DIALOG1, this))
+	{
+		delete m_pPage1;
+		m_pPage1 = nullptr;
+
+		return FALSE;
+	}
+
+
+	// -------------------------------------------------
+	// Create Page 2
+	// -------------------------------------------------
+
+	m_pPage2 = new CPage2Dlg();
+
+	if (!m_pPage2->Create(IDD_DIALOG2, this))
+	{
+		delete m_pPage2;
+		m_pPage2 = nullptr;
+
+		return FALSE;
+	}
+
+
+	// -------------------------------------------------
+	// Position the pages
+	// -------------------------------------------------
+
+	CRect rect;
+	GetClientRect(&rect);
+
+	m_pPage1->SetWindowPos(
+		nullptr,
+		rect.left,
+		rect.top,
+		rect.Width(),
+		rect.Height(),
+		SWP_NOZORDER);
+
+	m_pPage2->SetWindowPos(
+		nullptr,
+		rect.left,
+		rect.top,
+		rect.Width(),
+		rect.Height(),
+		SWP_NOZORDER);
+
+
+	// Show Page 1
+	ShowPage(m_pPage1);
+
+	return TRUE;
 }
 
 void CCPSC362Dlg::OnSysCommand(UINT nID, LPARAM lParam)
@@ -154,9 +213,25 @@ HCURSOR CCPSC362Dlg::OnQueryDragIcon()
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
+void CCPSC362Dlg::ShowPage(CDialogEx* pPage)
+{
+	if (m_pPage1 != nullptr)
+		m_pPage1->ShowWindow(SW_HIDE);
+
+	if (m_pPage2 != nullptr)
+		m_pPage2->ShowWindow(SW_HIDE);
+
+	if (pPage != nullptr)
+	{
+		pPage->ShowWindow(SW_SHOW);
+		pPage->SetFocus();
+	}
+}
+
+
 
 
 void CCPSC362Dlg::OnBnClickedButton1()
 {
-	// TODO: Add your control notification handler code here
+	ShowPage(m_pPage2);
 }

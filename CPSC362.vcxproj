@@ -187,16 +187,22 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CPage1Dlg.h" />
+    <ClInclude Include="CPage2Dlg.h" />
     <ClInclude Include="CPSC362.h" />
     <ClInclude Include="CPSC362Dlg.h" />
+    <ClInclude Include="Dialog1.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CPage1Dlg.cpp" />
+    <ClCompile Include="CPage2Dlg.cpp" />
     <ClCompile Include="CPSC362.cpp" />
     <ClCompile Include="CPSC362Dlg.cpp" />
+    <ClCompile Include="Dialog1.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
