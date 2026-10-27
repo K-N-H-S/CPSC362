@@ -38,4 +38,5 @@ protected:
 
 public:
 	afx_msg void OnBnClickedButton1();
+	void ShowClassPage(const CString& name, const CString& major);
 };

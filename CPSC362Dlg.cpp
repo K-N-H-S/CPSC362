@@ -123,28 +123,54 @@ BOOL CCPSC362Dlg::OnInitDialog()
 		return FALSE;
 	}
 
+	// Get the main dialog's client area
 	CRect rect;
 	GetClientRect(&rect);
 
-	m_pPage1->SetWindowPos(
+	// Position Page 1 to fill the main dialog
+	if (m_pPage1 != nullptr)
+	{
+		m_pPage1->SetWindowPos(
+			nullptr,
+			0, 0,
+			rect.Width(),
+			rect.Height(),
+			SWP_NOZORDER | SWP_NOACTIVATE);
+	}
+
+	// Position Page 2 to fill the main dialog
+	if (m_pPage2 != nullptr)
+	{
+		m_pPage2->SetWindowPos(
+			nullptr,
+			0, 0,
+			rect.Width(),
+			rect.Height(),
+			SWP_NOZORDER | SWP_NOACTIVATE);
+	}
+
+	// Center the main dialog on the screen
+	CRect windowRect;
+	GetWindowRect(&windowRect);
+
+	int windowWidth = windowRect.Width();
+	int windowHeight = windowRect.Height();
+
+	int screenWidth = GetSystemMetrics(SM_CXSCREEN);
+	int screenHeight = GetSystemMetrics(SM_CYSCREEN);
+
+	int x = (screenWidth - windowWidth) / 2;
+	int y = (screenHeight - windowHeight) / 2;
+
+	SetWindowPos(
 		nullptr,
-		rect.left,
-		rect.top,
-		rect.Width(),
-		rect.Height(),
-		SWP_NOZORDER);
+		x, y,
+		windowWidth,
+		windowHeight,
+		SWP_NOZORDER | SWP_NOACTIVATE);
 
-	m_pPage2->SetWindowPos(
-		nullptr,
-		rect.left,
-		rect.top,
-		rect.Width(),
-		rect.Height(),
-		SWP_NOZORDER);
-
-
-	// Show Page 1
-	ShowPage(m_pPage1);
+	// Start with the welcome screen
+	ShowPage(nullptr);
 
 	return TRUE;
 }
@@ -213,10 +239,18 @@ void CCPSC362Dlg::ShowPage(CDialogEx* pPage)
 	}
 }
 
-
-
-
 void CCPSC362Dlg::OnBnClickedButton1()
 {
-	ShowPage(m_pPage2);
+	ShowPage(m_pPage1);
+}
+
+void CCPSC362Dlg::ShowClassPage(
+	const CString& name,
+	const CString& major)
+{
+	if (m_pPage2 != nullptr)
+	{
+		m_pPage2->SetStudentInfo(name, major);
+		ShowPage(m_pPage2);
+	}
 }
