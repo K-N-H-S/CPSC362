@@ -14,6 +14,13 @@
 #define IDC_BUTTON1                     1000
 #define IDC_BUTTON_NEXT                 1000
 #define IDC_PAGE_AREA                   1001
+#define IDC_EDIT_NAME                   1002
+#define IDC_EDIT2                       1003
+#define IDC_EDIT_MAJOR                  1003
+#define IDC_STATIC_STUDENT_INFO         1004
+#define IDC_COURSE_AREA                 1005
+#define IDC_STATIC_MAJOR                1006
+#define IDC_STATIC_NAME                 1007
 
 // Next default values for new objects
 // 
@@ -21,7 +28,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        134
 #define _APS_NEXT_COMMAND_VALUE         32771
-#define _APS_NEXT_CONTROL_VALUE         1002
+#define _APS_NEXT_CONTROL_VALUE         1008
 #define _APS_NEXT_SYMED_VALUE           109
 #endif
 #endif

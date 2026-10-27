@@ -1,23 +1,29 @@
 #pragma once
 
-
 // CPage1Dlg dialog
 
 class CPage1Dlg : public CDialogEx
 {
-	DECLARE_DYNAMIC(CPage1Dlg)
+    DECLARE_DYNAMIC(CPage1Dlg)
 
 public:
-	CPage1Dlg(CWnd* pParent = nullptr);   // standard constructor
-	virtual ~CPage1Dlg();
+    CPage1Dlg(CWnd* pParent = nullptr);
+    virtual ~CPage1Dlg();
 
-// Dialog Data
 #ifdef AFX_DESIGN_TIME
-	enum { IDD = IDD_DIALOG11 };
+    enum { IDD = IDD_DIALOG1 };
 #endif
 
-protected:
-	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+    // Student information
+    CString m_name;
+    CString m_major;
 
-	DECLARE_MESSAGE_MAP()
+protected:
+    virtual void DoDataExchange(CDataExchange* pDX);
+    virtual BOOL OnInitDialog();
+
+    DECLARE_MESSAGE_MAP()
+
+public:
+    afx_msg void OnBnClickedEnter();
 };
