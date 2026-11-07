@@ -1,0 +1,65 @@
+Physics, B.S. Classes  Prerequisites
+
+PHYS 225 (3)
+Corequisites: MATH 150A, PHYS 225L.
+
+PHYS 225L (1)
+Corequisites: PHYS 225.
+
+PHYS 226 (3)
+Prerequisites: PHYS 225
+Corequisites: MATH 150B, PHYS 226L.
+
+PHYS 226L (1)
+Corequisites: PHYS 226.
+
+PHYS 227 (1-3)
+Prerequisites: PHYS 226
+Corequisites: PHYS 227L
+
+PHYS 227L (1)
+Corequisites: PHYS 227.
+
+MATH 150A (4)
+Prerequisites: MATH 125 or MATH 115, MATH 116, or MATH 115A, MATH 115B, MATH 116
+
+MATH 150B (4)
+Prerequisites: MATH 150A.
+
+MATH 250A (4)
+Prerequisites: MATH 106 or MATH 150B.
+
+MATH 250B (4)
+Prerequisites: MATH 250A.
+
+CHEM 120A  (5)
+Prerequisites: CHEM 115
+Corequisites: MATH 115B, MATH 116, MATH 125, MATH 130 or MATH 150A.
+
+CHEM 123 (3)
+Corequisites: MATH 125 or MATH 150A; or MATH 115, MATH 116 or MATH 115B, MATH 116
+
+ASTR 444 (3)
+Prerequisites: PHYS 300
+
+PHYS 301 (3)
+Prerequisites: N/A
+
+PHYS 315 (3)
+Prerequisites: PHYS 227.
+
+PHYS 317 (3)
+Prerequisites: MATH 250A
+
+ENGL 301 (3)
+Prerequisites: ENGL 101.
+
+ENGL 360 (3)
+Prerequisites: N/A
+
+ENGL 363 (3)
+Prerequisites: N/A
+
+MATH 380 (3)
+Prerequisites: MATH 150B or MATH 106
+

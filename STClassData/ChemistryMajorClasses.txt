@@ -1,0 +1,237 @@
+Chemistry B.S. Major Classes  Prerequisites 
+
+CHEM 120A (5)
+Prerequisites: CHEM 115 
+Corequisites: MATH 115B, MATH 116, MATH 125, MATH 130 or MATH 150A.
+
+CHEM 120B (5)
+Prerequisites: CHEM 120A
+
+CHEM 190 (1)
+Prerequisites: N/A
+
+CHEM 301A (3)
+Prerequisites: CHEM 120B 
+Corequisites: CHEM 306A.
+
+CHEM 301B (3)
+Prerequisites: CHEM 301A
+
+CHEM 306A (2)
+Prerequisites: CHEM 120B 
+Corequisites: CHEM 301A.
+
+CHEM 306B (2)
+Prerequisites: CHEM 301A, CHEM 306A. 
+Corequisites: CHEM 301B
+
+CHEM 315 (3)
+Prerequisites: CHEM 120B
+
+CHEM 316 (2)
+Prerequisites: CHEM 315
+
+CHEM 325 (3)
+Prerequisites: CHEM 315
+
+CHEM 355 (3)
+Prerequisites: CHEM 316; CHEM 361A, CHEM 361B, CHEM 371A or CHEM 371B
+
+CHEM 371A (3)
+Prerequisites: MATH 250A, PHYS 226, CHEM 301B
+
+CHEM 371B (3)
+Prerequisites: MATH 250A, PHYS 226, CHEM 301B
+
+PHYS 225 (3)
+Corequisites: MATH 150A, PHYS 225L.
+
+PHYS 226 (3)
+Prerequisites: PHYS 225
+Corequisites: MATH 150B, PHYS 226L.
+
+PHYS 227 (1-3)
+Prerequisites: PHYS 226
+Corequisites: PHYS 227L
+
+PHYS 225L (1)
+Corequisites: PHYS 225.
+
+PHYS 226L (1)
+Corequisites: PHYS 226.
+
+MATH 150A (4)
+Prerequisites: MATH 125 or MATH 115, MATH 116, or MATH 115A, MATH 115B, MATH 116
+
+MATH 150B (4)
+Prerequisites: MATH 150A.
+
+MATH 250A (4)
+Prerequisites: MATH 106 or MATH 150B.
+
+MATH 250B (4)
+Prerequisites: MATH 250A.
+
+BIOL 302 (3)
+Prerequisites: BIOL 151, BIOL 152, BIOL 251, CHEM 120B 
+Prerequisites/Corequisites: BIOL 302L
+
+BIOL 303 (3)
+Prerequisites: BIOL 151, BIOL 152, BIOL 251, CHEM 120B
+
+BIOL 309 (3)
+Prerequisites: BIOL 151, BIOL 152, BIOL 251, CHEM 120B
+
+CRJU 300  (3)
+Prerequisites: N/A
+
+CRJU 340 (3)
+Prerequisites: CRJU 101 or CRJU 300, CRJU 100 or CRJU 301, CRJU 385, ENGL 301 
+Prerequisites/Corequisites: CRJU 330.
+
+EDSC 304 (3)
+Prerequisites: N/A
+
+EDSC 310 (3)
+Prerequisites: N/A
+
+EDSC 320  (3)
+Prerequisites: N/A
+
+EDSC 330 (3)
+Prerequisites: N/A
+
+EDSC 340 (3)
+Prerequisites: N/A
+
+EGCE 203 (3)
+Prerequisites: MATH 250A, EGCE 201
+
+EGCE 370 (3)
+Prerequisites: CHEM 123, EGCE 330.
+
+EGCE 581 (3)
+Prerequisites: EGCE 370
+
+EGCE 582 (3)
+Prerequisites: EGCE 370
+
+EGCE 583 (3)
+Prerequisites: EGCE 370
+
+EGME 232 (3)
+Prerequisites: CHEM 120A or CHEM 123; MATH 150B, PHYS 225.
+
+EGME 222 (3)
+Prerequisites: CHEM 120A or CHEM 123; EGCE 201, MATH 250A.
+
+EGME 462 (3)
+Prerequisites: EGCE 203 or EGME 222
+
+GEOG 311 (3)
+Prerequisites: GEOG 110
+
+GEOG 422 (3)
+Prerequisites: GEOG 311
+
+GEOG 486 (3)
+Prerequisites: MATH 106, MATH 107, MATH 110, MATH 115, MATH 115A, MATH 115B, MATH 120, MATH 125, MATH 130, MATH 135, MATH 150A, MATH 150B, MATH 170A or MATH 170B
+
+GEOL 303A (4)
+Prerequisites: MATH 115, MATH 125, MATH 130 or MATH 150A; ENGL 101, GE Area 1A.
+Prerequisites or Corequisites: GEOL 201, CHEM 120A.
+
+GEOL 406 (3)
+Prerequisites/Corequisites: GEOL 303B, CHEM 120B or CHEM 125, MATH 130 or MATH 150A.
+
+GEOL 456 (3)
+Prerequisites: MATH 150A or MATH 130; PHYS 225 or PHYS 211.
+
+MATH 306 (3)
+Prerequisites: MATH 250A, MATH 250B or MATH 207
+
+MATH 310 (4)
+Prerequisites: MATH 250A; MATH 207 or MATH 250B
+
+MATH 320 (3)
+Prerequisites/Corequisites: MATH 207 or MATH 250B
+
+MATH 335 (4)
+Prerequisites: MATH 250A
+
+MATH 338 (4)
+Prerequisites: MATH 106, MATH 130 or MATH 150B.
+
+MATH 435 (4)
+Prerequisites: MATH 335
+
+MATH 438 (4)
+Prerequisites: MATH 335
+
+MATH 439 (4)
+Prerequisites: MATH 170B, MATH 207 or MATH 250B, MATH 338 
+
+PHYS 300 (3)
+Prerequisites: MATH 250A, PHYS 226.
+
+PHYS 310 (3)
+Prerequisites: PHYS 226.
+
+PHYS 315 (3)
+Prerequisites: PHYS 227.
+
+PHYS 355 (3)
+Prerequisites: PHYS 227, MATH 250B.
+
+PHYS 380 (3)
+Prerequisites: PHYS 226.
+
+PHYS 411 (3)
+Prerequisites: PHYS 300, PHYS 330A or PHYS 355.
+
+PHYS 416 (3)
+Prerequisites: PHYS 227, PHYS 300.
+
+PHYS 476 (3)
+Prerequisites: PHYS 300, PHYS 355.
+
+ENGL 301 (3)
+Prerequisites: ENGL 101.
+
+ENGL 360 (3)
+Prerequisites: N/A
+
+ENGL 363 (3)
+Prerequisites: N/A
+
+CHEM 436 (3)
+Prerequisites: CHEM 315
+
+CHEM 438 (3)
+Prerequisites: CHEM 301B
+
+CHEM 439 (3)
+Prerequisites: CHEM 301B
+
+CHEM 411A (1)
+Prerequisites: CHEM 316
+
+CHEM 411C (1)
+Prerequisites: CHEM 316
+
+CHEM 411G (1)
+Prerequisites: CHEM 316
+
+CHEM 495 (1-3)
+Prerequisites: CHEM 301B, CHEM 315
+
+MATH 338 (4)
+Prerequisites: MATH 106, MATH 130 or MATH 150B.
+
+HONR 201B (3)
+Prerequisites: N/A
+
+POSC 100 (3)
+Prerequisites: N/A
+
+

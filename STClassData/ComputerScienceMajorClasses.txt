@@ -1,0 +1,183 @@
+Computer Science Major Classes and Prerequisites/Corequisites
+
+CPSC 120A (2)
+Corequisites: CPSC 120L
+
+CPSC 120L (1)
+Corequisites: CPSC 120A
+
+CPSC 121A (2)
+Prerequisites: CPSC 120; or CPSC 120A and CPSC 120L.
+Corequisites: CPSC 121L.
+
+CPSC 121L (1)
+Prerequisites: CPSC 120; or CPSC 120A and CPSC 120L
+Corequisites: CPSC 121A.
+
+CPSC 131 (3)
+Prerequisites: CPSC 121A, CPSC 121L; or CPSC 121
+
+CPSC 223C (3)
+Prerequisites: CPSC 131.
+
+CPSC 223J (3)
+Prerequisites: CPSC 131.
+
+CPSC 223N (3)
+Prerequisites: CPSC 131.
+
+CPSC 223P (3)
+Prerequisites: N/A
+
+CPSC 223W (3)
+Prerequisites: CPSC 131.
+
+CPSC 240 (3)
+Prerequisites: CPSC 131; MATH 170A or MATH 280
+
+CPSC 253 (3)
+Prerequisites: N/A
+
+CPSC 315 (3)
+Prerequisites: CPSC 131
+
+CPSC 323 (3)
+Prerequisites: CPSC 131
+
+CPSC 332 (3)
+Prerequisites: CPSC 131
+
+CPSC 335 (3)
+Prerequisites: CPSC 131, MATH 170A, MATH 150A
+
+CPSC 351 (3)
+Prerequisites: CPSC 131, CPSC 240
+
+CPSC 362 (3)
+Prerequisites: CPSC 131
+
+CPSC 471 (3)
+Prerequisites: CPSC 351
+
+CPSC 481 (3)
+Prerequisites: CPSC 335, MATH 338
+
+CPSC 490 (3)
+Prerequisites: CPSC 362
+
+CPSC 491 (3)
+Prerequisites: CPSC 490
+
+MATH 150A (4)
+Prerequisites: MATH 125 or MATH 115, MATH 116 or MATH 115A, MATH 115B, MATH 116
+
+MATH 150B (4)
+Prerequisites: MATH 150A.
+
+MATH 170A (3)
+Prerequisites: N/A
+
+MATH 170B (3)
+Prerequisites: N/A
+
+MATH 338 (4)
+Prerequisites: MATH 106, MATH 130 or MATH 150B.
+
+BIOL 101 (3)
+Prerequisites: N/A
+
+BIOL 101L (1)
+Pre- or Corequisites: BIOL 101 or BIOL 103
+
+BIOL 151 (4)
+Prerequisites: N/A
+
+BIOL 152 (4)
+Prerequisites: N/A
+
+CHEM 120A (5)
+Prerequisites: CHEM 115 
+Corequisites: MATH 115B, MATH 116, MATH 125, MATH 130 or MATH 150A
+
+CHEM 120B (5)
+Prerequisites: CHEM 120A
+
+CHEM 123 (3)
+Corequisites: MATH 125 or MATH 150A; or MATH 115, MATH 116; or MATH 115B, MATH 116.
+
+CHEM 125 (3)
+Prerequisites: CHEM 120A or CHEM 123
+
+GEOL 101 (3)
+Prerequisites: N/A
+
+GEOL 101L (1)
+Prerequisites/Corequisites: GEOL 100, GEOL 101 or GEOL 110T.
+
+GEOL 201 (3)
+Prerequisites: GEOL 101L or GEOL 102.
+
+GEOL 201L (1)
+Corequisites: GEOL 201.
+
+MATH 250A (4)
+Prerequisites: MATH 106 or MATH 150B.
+
+MATH 250B (4)
+Prerequisites: MATH 250A.
+
+PHYS 225 (3)
+Corequisites: MATH 150A, PHYS 225L.
+
+PHYS 225L (1)
+Corequisites: PHYS 225.
+
+PHYS 226 (3)
+Prerequisites: PHYS 225 
+Corequisites: MATH 150B, PHYS 226L.
+
+PHYS 226L (1)
+Corequisites: PHYS 226.
+
+PHYS 227 (1-3)
+Prerequisites: PHYS 226
+Corequisites: PHYS 227L
+
+PHYS 227L (1)
+Corequisites: PHYS 227.
+
+CPSC 254 (3)
+Prerequisites: N/A
+
+CPSC 301 (2)
+Prerequisites: CPSC 131
+
+CPSC 349 (3)
+Prerequisites: CPSC 131.
+
+CPSC 352 (3)
+Prerequisites: MATH 170B, CPSC 131, CPSC 253
+
+CPSC 375 (3)
+Prerequisites: CPSC 223P or CPSC 131
+
+CPSC 386 (3)
+Prerequisites: CPSC 121A, CPSC 121L
+
+MATH 335 (4)
+Prerequisites: MATH 250A
+
+MATH 340 (4)
+Prerequisites: MATH 250A; MATH 207 or MATH 250B; MATH 107 and MATH 207, or CPSC 120A and CPSC 120L, or MATH 320, or CPSC 121.
+
+MATH 370 (4)
+Prerequisites: MATH 250A; MATH 207 or MATH 250B; MATH 107 and MATH 207, or CPSC 120A and CPSC 120L, or MATH 320, or CPSC 121
+
+POSC 100American Government (3)
+Prerequisites: N/A
+
+
+
+
+
+
