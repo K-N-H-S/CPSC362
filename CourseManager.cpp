@@ -146,28 +146,30 @@ bool CourseManager::LoadMajor(const string& major)
     if (tempMajor == "computer science")
     {
         courseMap.clear(); 
-        return LoadCourses("ComputerScienceMajorClasses.txt");
+        return LoadCourses(
+            "Data\\ComputerScienceMajorClasses.txt");
     }
 
     if (tempMajor == "biology")
     {
         courseMap.clear();
-        return LoadCourses("BiologyMajorClasses.txt");
+        return LoadCourses(
+            "Data\\BiologyMajorClasses.txt");
     }
 
     if (tempMajor == "chemistry")
     {
         courseMap.clear();
-        return LoadCourses("ChemistryMajorClasses.txt");
+        return LoadCourses(
+            "Data\\ChemistryMajorClasses.txt");
     }
 
     if (tempMajor == "physics")
     {
         courseMap.clear();
-        return LoadCourses("PhysicsMajorCLasses.txt");
+        return LoadCourses(
+            "Data\\PhysicsMajorCLasses.txt");
     }
-
-    return false;
 }
 
 Course* CourseManager::GetCourse(const string& courseID)
