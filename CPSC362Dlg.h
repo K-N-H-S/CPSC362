@@ -5,6 +5,7 @@
 
 #include "CPage1Dlg.h"
 #include "CPage2Dlg.h"
+#include "CourseManager.h"
 
 // CCPSC362Dlg dialog
 class CCPSC362Dlg : public CDialogEx
@@ -12,6 +13,8 @@ class CCPSC362Dlg : public CDialogEx
 private:
 	CPage1Dlg* m_pPage1;
 	CPage2Dlg* m_pPage2;
+
+	CourseManager m_courseManager;
 
 	void ShowPage(CDialogEx* pPage);
 

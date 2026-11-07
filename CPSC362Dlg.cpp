@@ -250,6 +250,11 @@ void CCPSC362Dlg::ShowClassPage(
 {
 	if (m_pPage2 != nullptr)
 	{
+		CStringA majorA(major);
+
+		m_courseManager.LoadMajor(
+			std::string(majorA));
+
 		m_pPage2->SetStudentInfo(name, major);
 		ShowPage(m_pPage2);
 	}
