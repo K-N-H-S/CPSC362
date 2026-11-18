@@ -134,6 +134,8 @@ bool CourseManager::LoadCourses(const string& filename)
 
 bool CourseManager::LoadMajor(const string& major)
 {
+    //Allows the user to type uppercase and lowercase letters when entering their major
+
     string tempMajor = major;
 
     for (char& ch : tempMajor)
@@ -142,6 +144,8 @@ bool CourseManager::LoadMajor(const string& major)
             tolower(
                 static_cast<unsigned char>(ch)));
     }
+
+    // The majors
 
     if (tempMajor == "computer science")
     {
@@ -170,6 +174,62 @@ bool CourseManager::LoadMajor(const string& major)
         return LoadCourses(
             "Data\\PhysicsMajorCLasses.txt");
     }
+
+    if (tempMajor == "pure mathematics")
+    {
+        courseMap.clear();
+        return LoadCourses(
+            "Data\\PureMathematicsMajorClasses.txt");
+    }
+
+    if (tempMajor == "statistics")
+    {
+        courseMap.clear();
+        return LoadCourses(
+            "Data\\StatisticsMathematicsMajorClasses.txt");
+    }
+
+    if (tempMajor == "acturial science")
+    {
+        courseMap.clear();
+        return LoadCourses(
+            "Data\\ActurialMathematicsMajorClasses.txt");
+    }
+
+    if (tempMajor == "applied mathematics")
+    {
+        courseMap.clear();
+        return LoadCourses(
+            "Data\\AppliedMathematicsMajorClasses.txt");
+    }
+
+    if (tempMajor == "mechanical engineering")
+    {
+        courseMap.clear();
+        return LoadCourses(
+            "Data\\MechanicalEngineeringMajorClasses.txt");
+    }
+
+    if (tempMajor == "electrical engineering")
+    {
+        courseMap.clear();
+        return LoadCourses(
+            "Data\\ElectricalEngineeringMajorClasses.txt");
+    }
+
+    if (tempMajor == "computer engineering")
+    {
+        courseMap.clear();
+        return LoadCourses(
+            "Data\\ComputerEngineeringMajorClasses.txt");
+    }
+
+    if (tempMajor == "engineering")
+    {
+        courseMap.clear();
+        return LoadCourses(
+            "Data\\EngineeringMajorClasses.txt");
+    }
 }
 
 Course* CourseManager::GetCourse(const string& courseID)
@@ -191,7 +251,7 @@ map<string, Course>& CourseManager::GetCourses()
 
 bool CourseManager::AddCourseToSchedule(const string& courseID)
 {
-    // Maximum 4 classes
+    // Maximum 4 classes for each major
 
     if (studentSchedule.size() >= 4)
     {
