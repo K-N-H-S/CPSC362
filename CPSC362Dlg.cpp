@@ -69,6 +69,7 @@ BEGIN_MESSAGE_MAP(CCPSC362Dlg, CDialogEx)
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
 	ON_BN_CLICKED(IDC_BUTTON1, &CCPSC362Dlg::OnBnClickedButton1)
+	ON_WM_CTLCOLOR()
 END_MESSAGE_MAP()
 
 
@@ -232,6 +233,11 @@ void CCPSC362Dlg::ShowPage(CDialogEx* pPage)
 	if (m_pPage2 != nullptr)
 		m_pPage2->ShowWindow(SW_HIDE);
 
+	CWnd* pEnterButton = GetDlgItem(IDC_BUTTON_NEXT);
+
+	if (pEnterButton != nullptr)
+		pEnterButton->ShowWindow(pPage == nullptr ? SW_SHOW : SW_HIDE);
+
 	if (pPage != nullptr)
 	{
 		pPage->ShowWindow(SW_SHOW);
@@ -258,4 +264,21 @@ void CCPSC362Dlg::ShowClassPage(
 		m_pPage2->SetStudentInfo(name, major);
 		ShowPage(m_pPage2);
 	}
+}
+
+HBRUSH CCPSC362Dlg::OnCtlColor(
+	CDC* pDC,
+	CWnd* pWnd,
+	UINT nCtlColor)
+{
+	HBRUSH hbr = CDialogEx::OnCtlColor(
+		pDC, pWnd, nCtlColor);
+
+	if (nCtlColor == CTLCOLOR_DLG)
+	{
+		static CBrush blueBrush(RGB(190, 220, 250));
+		return blueBrush;
+	}
+
+	return hbr;
 }

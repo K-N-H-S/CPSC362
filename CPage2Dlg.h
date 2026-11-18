@@ -18,7 +18,11 @@ public:
 #endif
 
 protected:
-	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+	virtual void DoDataExchange(CDataExchange* pDX);
+	afx_msg HBRUSH OnCtlColor(
+		CDC* pDC,
+		CWnd* pWnd,
+		UINT nCtlColor);
 
 	DECLARE_MESSAGE_MAP()
 

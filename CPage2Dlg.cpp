@@ -43,7 +43,24 @@ void CPage2Dlg::SetStudentInfo
 
 
 BEGIN_MESSAGE_MAP(CPage2Dlg, CDialogEx)
+    ON_WM_CTLCOLOR()
 END_MESSAGE_MAP()
 
+HBRUSH CPage2Dlg::OnCtlColor(
+    CDC* pDC,
+    CWnd* pWnd,
+    UINT nCtlColor)
+{
+    HBRUSH hbr = CDialogEx::OnCtlColor(
+        pDC, pWnd, nCtlColor);
+
+    if (nCtlColor == CTLCOLOR_DLG)
+    {
+        static CBrush blueBrush(RGB(190, 220, 250));
+        return blueBrush;
+    }
+
+    return hbr;
+}
 
 // CPage2Dlg message handlers

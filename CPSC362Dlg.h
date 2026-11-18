@@ -37,6 +37,11 @@ protected:
 	afx_msg void OnPaint();
 	afx_msg HCURSOR OnQueryDragIcon();
 
+	afx_msg HBRUSH OnCtlColor(
+		CDC* pDC,
+		CWnd* pWnd,
+		UINT nCtlColor);
+
 	DECLARE_MESSAGE_MAP()
 
 public:

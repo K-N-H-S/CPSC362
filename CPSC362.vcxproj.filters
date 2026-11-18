@@ -42,6 +42,12 @@
     <ClInclude Include="CPage2Dlg.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CourseManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Course.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CPSC362.cpp">
@@ -60,6 +66,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CPage2Dlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -61,7 +61,53 @@ void CPage1Dlg::OnBnClickedEnter()
 
 BEGIN_MESSAGE_MAP(CPage1Dlg, CDialogEx)
 	ON_BN_CLICKED(IDC_BUTTON1, &CPage1Dlg::OnBnClickedEnter)
+    ON_WM_CTLCOLOR()
 END_MESSAGE_MAP()
+
+//Function for darker colors
+
+/*HBRUSH CPage1Dlg::OnCtlColor(
+    CDC* pDC,
+    CWnd* pWnd,
+    UINT nCtlColor)
+{
+    static CBrush blueBrush(RGB(190, 225, 250));
+
+    if (nCtlColor == CTLCOLOR_DLG)
+    {
+        return (HBRUSH)blueBrush.GetSafeHandle();
+    }
+
+    if (nCtlColor == CTLCOLOR_STATIC)
+    {
+        pDC->SetTextColor(RGB(255, 255, 255));
+        pDC->SetBkMode(TRANSPARENT);
+
+        return (HBRUSH)blueBrush.GetSafeHandle();
+    }
+
+    return CDialogEx::OnCtlColor(
+        pDC, pWnd, nCtlColor);
+}*/
+
+//Function for lighter colors
+
+HBRUSH CPage1Dlg::OnCtlColor(
+    CDC* pDC,
+    CWnd* pWnd,
+    UINT nCtlColor)
+{
+    HBRUSH hbr = CDialogEx::OnCtlColor(
+        pDC, pWnd, nCtlColor);
+
+    if (nCtlColor == CTLCOLOR_DLG)
+    {
+        static CBrush blueBrush(RGB(190, 220, 250));
+        return blueBrush;
+    }
+
+    return hbr;
+}
 
 
 // CPage1Dlg message handlers
