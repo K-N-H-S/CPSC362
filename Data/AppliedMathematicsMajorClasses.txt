@@ -1,0 +1,93 @@
+Mathematics, Applied Mathematics Concentration BS Classes and Prerequisites
+
+MATH 105 (5)
+Prerequisites: N/A
+
+MATH 106 (5)
+Prerequisites: MATH 105 or MATH 150A
+
+MATH 180 (4)
+Prerequisites: N/A
+
+MATH 207 (4)
+Prerequisites: MATH 107, MATH 106 or MATH 150B
+
+MATH 250A (4)
+Prerequisites: MATH 106 or MATH 150B
+
+MATH 280 (4)
+Prerequisites: MATH 106 or MATH 150B
+
+MATH 307 (4)
+Prerequisites: MATH 250A; MATH 280; MATH 207 or MATH 250B
+
+MATH 350 (4)
+Prerequisites: MATH 250A; MATH 280; MATH 207 or MATH 250B
+
+MATH 380 (3)
+Prerequisites: MATH 150B or MATH 106
+
+MATH 107 (4)
+Prerequisites: MATH 150A
+
+MATH 320 (3)
+Corequisites: MATH 207 or MATH 250B
+
+CPSC 120A (2)
+Corequisites: CPSC 120L
+
+CPSC 120L (1)
+Corequisites: CPSC 120A
+
+CPSC 121A (2)
+Prerequisites: CPSC 120; or CPSC 120A and CPSC 120L
+Corequisites: CPSC 121L
+
+CPSC 121L (1)
+Prerequisites: CPSC 120; or CPSC 120A and CPSC 120L
+Corequisites: CPSC 121A.
+
+MATH 310 (4)
+Prerequisites: MATH 250A; MATH 207 or MATH 250B
+
+MATH 320 (3)
+Corequisites: MATH 207 or MATH 250B
+
+MATH 335 (4)
+Prerequisites: MATH 250A
+
+MATH 338 (4)
+Prerequisites: MATH 106, MATH 130 or MATH 150B
+
+MATH 340 (4)
+Prerequisites: MATH 250A; MATH 207 or MATH 250B; MATH 107 and MATH 207, or CPSC 120A and CPSC 120L, or MATH 320, or CPSC 121
+
+MATH 370 (4)
+Prerequisites: MATH 250A; MATH 207 or MATH 250B; MATH 107 and MATH 207, or CPSC 120A and CPSC 120L, or MATH 320, or CPSC 121
+
+MATH 406 (4)
+Prerequisites: MATH 250A; MATH 306 or MATH 310 or MATH 250B or MATH 207
+
+MATH 437 (4)
+Prerequisites: MATH 335
+
+MATH 440 (4)
+Prerequisites: MATH 340
+
+MATH 470 (4)
+Prerequisites: MATH 335 or MATH 370
+Corequisites: MATH 335
+
+HONR 201B (3)
+Prerequisites: N/A
+
+POSC 100 (3)
+Prerequisites: N/A
+
+
+
+
+
+
+
+

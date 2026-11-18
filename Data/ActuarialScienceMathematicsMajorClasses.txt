@@ -1,0 +1,91 @@
+Mathematics, Actuarial Science Concentration, B.S. Classes and Prerequisites
+
+MATH 105 (5)
+Prerequisites: N/A
+
+MATH 106 (5)
+Prerequisites: MATH 105 or MATH 150A
+
+MATH 180 (4)
+Prerequisites: N/A
+
+MATH 207 (4)
+Prerequisites: MATH 107, MATH 106 or MATH 150B
+
+MATH 250A (4)
+Prerequisites: MATH 106 or MATH 150B
+
+MATH 280 (4)
+Prerequisites: MATH 106 or MATH 150B
+
+MATH 307 (4)
+Prerequisites: MATH 250A; MATH 280; MATH 207 or MATH 250B
+
+MATH 350 (4)
+Prerequisites: MATH 250A; MATH 280; MATH 207 or MATH 250B
+
+MATH 380 (3)
+Prerequisites: MATH 150B or MATH 106
+
+MATH 107 (4)
+Prerequisites: MATH 150A
+
+MATH 320 (3)
+Corequisites: MATH 207 or MATH 250B
+
+CPSC 120A (2)
+Corequisites: CPSC 120L
+
+CPSC 120L (1)
+Corequisites: CPSC 120A
+
+CPSC 121A (2)
+Prerequisites: CPSC 120; or CPSC 120A and CPSC 120L
+Corequisites: CPSC 121L
+
+CPSC 121L (1)
+Prerequisites: CPSC 120; or CPSC 120A and CPSC 120L
+Corequisites: CPSC 121A.
+
+FIN 320 (3)
+Prerequisites: ACCT 201A
+
+FIN 360 (3)
+Corequisites: FIN 320
+
+FIN 415 (3)
+Prerequisites: MATH 106 or MATH 150B
+
+MATH 335 (4)
+Prerequisites: MATH 250A
+
+MATH 338 (4)
+Prerequisites: MATH 106, MATH 130 or MATH 150B.
+
+MATH 435 (4)
+Prerequisites: MATH 335
+
+MATH 437 (4)
+Prerequisites: MATH 335
+
+MATH 460 (4)
+Prerequisites: MATH 335
+
+MATH 461 (4)
+Prerequisites: MATH 335
+
+HONR 201B (3)
+Prerequisites: N/A
+
+POSC 100 (3)
+Prerequisites: N/A
+
+
+
+
+
+
+
+
+
+
