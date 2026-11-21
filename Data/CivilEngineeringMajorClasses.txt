@@ -1,0 +1,123 @@
+Civil Engineering BS Classes and Prerequisites/Corequisites
+
+CHEM 123 (3)
+Corequisites: MATH 125 or MATH 150A; or MATH 115, MATH 116; or MATH 115B, MATH 116.
+
+MATH 150A (4)
+Prerequisites: MATH 125 OR MATH 115, MATH 116, OR MATH 115A, MATH 115B, MATH 116
+
+MATH 150B (4)
+Prerequisites: MATH 150A.
+
+MATH 250A (4)
+Prerequisites: MATH 106 or MATH 150B.
+
+MATH 250B (4)
+Prerequisites: MATH 250A.
+
+PHYS 225 (3)
+Corequisites: MATH 150A, PHYS 225L.
+
+PHYS 225L (1)
+Corequisites: PHYS 225.
+
+PHYS 226 (3)
+Prerequisites: PHYS 225
+Corequisites: MATH 150B, PHYS 226L.
+
+PHYS 226L (1)
+Corequisites: PHYS 226.
+
+BIOL 101 (3)
+Prerequisites: N/A
+
+GEOL 101 (3)
+Prerequisites: N/A
+
+EGCE 311L (1)
+Prerequisites: ENGL 101, EGCE 203.
+
+EGCE 321L (1)
+Prerequisites: ENGL 101, EGCE 320. 
+
+EGCE 331L (1)
+Prerequisites: ENGL 101, EGCE 330.
+
+EGCE 341L (1)
+Prerequisites: ENGL 101, EGCE 340.
+
+EGCE 104 (1)
+Prerequisites: N/A
+
+EGCE 110 (2)
+Corequisites: EGCE 110L.
+
+EGCE 110L (1)
+Corequisites: EGCE 110.
+
+EGCE 201 (3)
+Prerequisites: MATH 150B, PHYS 225.
+
+EGCE 202 (3)
+Prerequisites: MATH 250A, EGCE 201.
+
+EGCE 203 (3)
+Prerequisites: MATH 250A, EGCE 201 
+
+EGCE 204 (1)
+Prerequisites: EGCE 104, ENGL 101.
+
+EGCE 311L (1)
+Prerequisites: ENGL 101, EGCE 203.
+
+EGCE 320 (3)
+Prerequisites: EGCE 203 
+
+EGCE 321L (1)
+Prerequisites: ENGL 101, EGCE 320.
+
+EGCE 325 (3)
+Prerequisites: EGCE 320.
+
+EGCE 326 (3)
+Prerequisites: EGCE 320.
+
+EGCE 330 (3)
+Prerequisites: EGCE 202.
+
+EGCE 331L (1)
+Prerequisites: ENGL 101, EGCE 330.
+
+EGCE 340 (3)
+Prerequisites: EGCE 203 
+
+EGCE 341L (1)
+Prerequisites: ENGL 101, EGCE 340
+
+EGCE 342 (3)
+Prerequisites: EGCE 340.
+
+EGCE 350 (3)
+Prerequisites: EGCE 203 or EGCE 401
+
+EGCE 360 (3)
+Prerequisites: EGCE 202.
+
+EGCE 370 (3)
+Prerequisites: CHEM 123, EGCE 330.
+
+HONR 201B (3)
+Prerequisites: N/A
+
+POSC 100 (3)
+Prerequisites: N/A
+
+
+
+
+
+
+
+
+
+
