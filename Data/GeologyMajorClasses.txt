@@ -1,0 +1,169 @@
+Geology B.S. Classes and Prerequisites
+
+GEOL 100 (3)
+Prerequisites: N/A
+
+GEOL 101 (3)
+Prerequisites: N/A
+
+GEOL 110T (3)
+Prerequisites: N/A
+
+GEOL 101L(1)
+Prerequisites/Corequisites: GEOL 100, GEOL 101 or GEOL 110T.
+
+GEOL 201 (3)
+Prerequisites: GEOL 101L or GEOL 102.
+
+GEOL 303A (4)
+Prerequisites: MATH 115, MATH 125, MATH 130 or MATH 150A; ENGL 101, GE Area 1A.
+Prerequisites/Corequisites: GEOL 201, CHEM 120A.
+
+GEOL 303B (4)
+Prerequisites: GEOL 303A. 
+Prerequisites/Corequisites: CHEM 120B or CHEM 125; GEOL 380.
+
+GEOL 321 (4)
+Prerequisites: GEOL 201, GEOL 303B.
+
+GEOL 335 (3)
+Prerequisites: GEOL 101L or GEOL 102.
+
+GEOL 360 (4)
+Prerequisites: GEOL 303A, GEOL 380; PHYS 211 or PHYS 225.
+
+GEOL 380 (3)
+Prerequisites/Corequisites: GEOL 201; ENGL 101 or GE Area 1A; MATH 115 or MATH 125.
+
+GEOL 406 (3)
+Prerequisites/Corequisites: GEOL 303B, CHEM 120B or CHEM 125, MATH 130 or MATH 150A.
+
+GEOL 456 (3)
+Prerequisites: MATH 150A or MATH 130; PHYS 225 or PHYS 211.
+
+GEOL 476 (3)
+Prerequisites: GEOL 335, GEOL 360.
+
+GEOL 481A  (4)
+Prerequisites: GEOL 303B, GEOL 321, GEOL 335, GEOL 360, GEOL 380.
+
+GEOL 498 (1-3)
+Prerequisites: N/A
+
+BIOL 101 (3)
+Prerequisites: N/A
+
+CHEM 120A (5)
+Prerequisites: CHEM 115
+Corequisites: MATH 115B, MATH 116, MATH 125, MATH 130 or MATH 150A.
+
+CHEM 120B (5)
+Prerequisites: CHEM 120A
+
+CHEM 125 (3)
+Prerequisites: CHEM 120A or CHEM 123
+
+MATH 150A (4)
+Prerequisites: MATH 125 or MATH 115, MATH 116, or MATH 115A, MATH 115B, MATH 116
+
+MATH 150B (4)
+Prerequisites: MATH 150A.
+
+MATH 130 (4)
+Prerequisites: MATH 115, MATH 115A and MATH 115B, or MATH 125
+
+MATH 338 (4)
+Prerequisites: MATH 106, MATH 130 or MATH 150B
+
+PHYS 225 (3)
+Corequisites: MATH 150A, PHYS 225L.
+
+PHYS 225L (1)
+Corequisites: PHYS 225.
+
+PHYS 226 (3)
+Prerequisites: PHYS 225
+Corequisites: MATH 150B, PHYS 226L.
+
+PHYS 211 (3)
+Prerequisites: MATH 125, MATH 130 or MATH 150A.
+Corequisites: PHYS 211L.
+
+PHYS 211L (1)
+Corequisites: PHYS 211.
+
+PHYS 212 (3)
+Prerequisites: PHYS 211, PHYS 211L
+Corequisites: PHYS 212L.
+
+BIOL 210 (3)
+Prerequisites: N/A
+
+BIOL 300 (3)
+Prerequisites: N/A.
+
+BIOL 319 (3)
+Prerequisites: N/A.
+
+CHEM 301A (3)
+Prerequisites: CHEM 120B
+Corequisites: CHEM 306A.
+
+CHEM 315 (3)
+Prerequisites: CHEM 120B
+
+CHEM 325 (3)
+Prerequisites: CHEM 315
+
+CHEM 361A (3)
+Prerequisites: MATH 150B, CHEM 301B; PHYS 212 or PHYS 226
+
+EGCE 203 (3)
+Prerequisites: MATH 250A, EGCE 201
+
+EGCE 340 (3)
+Prerequisites: EGCE 203
+
+EGCE 431 (3)
+Corequisites: EGCE 330.
+
+EGCE 370 (3)
+Prerequisites: CHEM 123, EGCE 330.
+
+GEOG 481 (3)
+Prerequisites: GE Area 2A
+
+GEOG 485 (3)
+Prerequisites: GEOG 281.
+
+MATH 250A (4)
+Prerequisites: MATH 106 or MATH 150B.
+
+MATH 250B   (4)
+Prerequisites: MATH 250A.
+
+PHYS 227 (1-3)
+Prerequisites: PHYS 226
+Corequisites: PHYS 227L
+
+PHYS 227L (1)
+Corequisites: PHYS 227.
+
+PHYS 300 (3)
+Prerequisites: MATH 250A, PHYS 226.
+
+PHYS 310 (3)
+Prerequisites: PHYS 226.
+
+PHYS 320 (3)
+Prerequisites: PHYS 227, PHYS 300.
+
+PHYS 330A (3)
+Prerequisites: PHYS 227, PHYS 300.
+
+HONR 201B (3)
+Prerequisites: N/A
+
+POSC 100 (3)
+Prerequisites: N/A
+

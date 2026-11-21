@@ -145,7 +145,7 @@ bool CourseManager::LoadMajor(const string& major)
                 static_cast<unsigned char>(ch)));
     }
 
-    // The majors
+    // The Science and Technology Majors
 
     if (tempMajor == "computer science")
     {
@@ -175,6 +175,22 @@ bool CourseManager::LoadMajor(const string& major)
             "Data\\PhysicsMajorCLasses.txt");
     }
 
+    if (tempMajor == "biochemistry")
+    {
+        courseMap.clear();
+        return LoadCourses(
+            "Data\\BiochemistryMajorClasses.txt");
+    }
+
+    if (tempMajor == "geology")
+    {
+        courseMap.clear();
+        return LoadCourses(
+            "Data\\GeologyMajorClasses.txt");
+    }
+
+    // The Mathematics and Engineering Majors:
+    
     if (tempMajor == "pure mathematics")
     {
         courseMap.clear();
