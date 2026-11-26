@@ -127,7 +127,7 @@ bool CourseManager::LoadCourses(const string& filename)
         }
     }
 
-    file.close();
+    file.close(); 
 
     return true;
 }
@@ -144,9 +144,8 @@ bool CourseManager::LoadMajor(const string& major)
             tolower(
                 static_cast<unsigned char>(ch)));
     }
-
-    // The Science and Technology Majors
-
+     
+    //Science and Technology Majors in ST
     if (tempMajor == "computer science")
     {
         courseMap.clear();
@@ -189,8 +188,7 @@ bool CourseManager::LoadMajor(const string& major)
             "Data\\GeologyMajorClasses.txt");
     }
 
-    // The Mathematics and Engineering Majors:
-
+    //Mathematics Majors in EM
     if (tempMajor == "pure mathematics")
     {
         courseMap.clear();
@@ -205,7 +203,7 @@ bool CourseManager::LoadMajor(const string& major)
             "Data\\StatisticsMathematicsMajorClasses.txt");
     }
 
-    if (tempMajor == "acturial science")
+    if (tempMajor == "actuarial science")
     {
         courseMap.clear();
         return LoadCourses(
@@ -219,6 +217,14 @@ bool CourseManager::LoadMajor(const string& major)
             "Data\\AppliedMathematicsMajorClasses.txt");
     }
 
+    if (tempMajor == "teaching mathematics")
+    {
+        courseMap.clear();
+        return LoadCourses(
+            "Data\\TeachingMathematicsMajorClasses.txt");
+    }
+
+    //Engineering Majors in EM
     if (tempMajor == "mechanical engineering")
     {
         courseMap.clear();
@@ -246,7 +252,10 @@ bool CourseManager::LoadMajor(const string& major)
         return LoadCourses(
             "Data\\EngineeringMajorClasses.txt");
     }
+    
+    return false;
 }
+
 
 Course* CourseManager::GetCourse(const string& courseID)
 {
@@ -292,7 +301,7 @@ bool CourseManager::AddCourseToSchedule(const string& courseID)
         }
     }
 
-    studentSchedule.push_back(it->second);
+    studentSchedule.push_back(it->second); 
 
     return true;
 }
